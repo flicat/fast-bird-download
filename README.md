@@ -1,4 +1,4 @@
-# fast-bird-download
+# nodejs-download
 
 nodejs download module, support multi-threaded segmented download,
 breakpoint renewal.
