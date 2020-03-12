@@ -3,12 +3,6 @@
 nodejs download module, support multi-threaded segmented download,
 breakpoint renewal.
 
-Installation
-------------
-
-    npm install fast-bird-download
-
-
 
 Usage
 -----
@@ -17,7 +11,7 @@ Usage
 
 Example:
 ```js
-   const download = require('fast-bird-download')
+   const download = require('./src/download')
     download([
         'http://172.31.1.235:3001/file_1.zip',
         'http://172.31.1.235:3001/file_2.exe',
