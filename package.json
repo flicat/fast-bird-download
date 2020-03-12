@@ -1,0 +1,34 @@
+{
+  "name": "fast-bird-download",
+  "version": "0.0.1",
+  "description": "nodejs download",
+  "main": "src/download.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flicat/node-download.git"
+  },
+  "keywords": [
+    "nodejs",
+    "download",
+    "stream"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flicat/node-download/issues"
+  },
+  "homepage": "https://github.com/flicat/node-download#readme",
+  "author": {
+    "name": "flicat",
+    "email": "liyuelong1020@gmail.com",
+    "url": "https://github.com/flicat"
+  },
+  "devDependencies": {
+    "axios": "^0.19.2",
+    "chalk": "^3.0.0",
+    "fs-extra": "^8.1.0",
+    "ora": "^4.0.3"
+  }
+}
