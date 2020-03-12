@@ -277,7 +277,7 @@ async function sendRequest(url, downloadDir, defaultHeaders, retryCount) {
     }
 }
 
-module.exports = async function downloadResource(urlList, downloadDir, headers = {}, retryCount = 10) {
+module.exports = async function downloadResource(urlList, downloadDir = './download', headers = {}, retryCount = 10) {
     if (!urlList || !urlList.length) {
         return []
     }
